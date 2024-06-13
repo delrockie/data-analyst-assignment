@@ -1,5 +1,3 @@
-# data-analyst-assignment
-
 # Data Analyst Assignment
 
 ## Dataset Chosen
