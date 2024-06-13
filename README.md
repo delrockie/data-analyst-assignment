@@ -15,3 +15,22 @@ One interesting thing I noticed was the diverse range of genres available in the
 ### Cool Fact 1
 ```sql
 SELECT genre, COUNT(*) AS count FROM netflix_shows GROUP BY genre ORDER BY count DESC;
+### Cool Fact 2
+```sql
+SELECT AVG(duration) AS average_duration FROM netflix_shows WHERE type = 'Movie';
+
+
+Questions and Answers
+
+Question 1
+What are the most popular genres?
+
+```sql
+SELECT genre, COUNT(*) AS count FROM netflix_shows GROUP BY genre ORDER BY count DESC;
+
+
+Question 2
+What is the average duration of movies?
+
+```sql
+SELECT AVG(duration) AS average_duration FROM netflix_shows WHERE type = 'Movie';
